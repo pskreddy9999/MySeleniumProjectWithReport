@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="30508" started-at="2019-02-12T13:25:46Z" finished-at="2019-02-12T13:26:17Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="30508" started-at="2019-02-12T13:25:46Z" finished-at="2019-02-12T13:26:17Z">
+      <class name="seleniumMain.Tests">
+        <test-method status="PASS" signature="tcr(java.lang.String)[pri:0, instance:seleniumMain.Tests@3159c4b8]" name="tcr" duration-ms="30442" started-at="2019-02-12T13:25:46Z" finished-at="2019-02-12T13:26:17Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tcr -->
+      </class> <!-- seleniumMain.Tests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

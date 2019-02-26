@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Suite">     <!--   parallel="tests" -->
+	<test thread-count="5" verbose="2" name="TestChrome" >    <!-- parallel="methods" -->
+		<parameter name="browser" value="chrome"></parameter>
+
+		<classes>
+			<class name="seleniumMain.Tests">
+				<methods>
+					<include name="tcr" />
+					
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+
+<!--  	<test thread-count="5" verbose="2" name="TestFirefox">
+		<parameter name="browser" value="firefox"></parameter>
+		<classes>
+			<class name="seleniumMain.Tests">
+				<methods>
+					<include name="tcr" />
+				</methods>
+			</class>
+		</classes>
+	</test> -->
+</suite> <!-- Suite -->

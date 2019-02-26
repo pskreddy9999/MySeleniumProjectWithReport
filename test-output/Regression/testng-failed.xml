@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression]">
+  <parameter name="browser" value="chrome"/>
+  <test thread-count="5" name="testLog(failed)">
+    <classes>
+      <class name="seleniumMain.Tests">
+        <methods>
+          <include name="tcr" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- seleniumMain.Tests -->
+    </classes>
+  </test> <!-- testLog(failed) -->
+</suite> <!-- Failed suite [Regression] -->
